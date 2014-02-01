@@ -1,0 +1,15 @@
+//Template file
+
+#include <iostream> //Get the iostream library. This will handle most of our code.
+#include <unistd.h> //Get the unistd.h library. This is to implement the "sleep" command.
+using namespace std; //So we can put "cout" instead of "std::cout"
+
+int main() //"main" function, MUST be included!
+{
+	//Code goes here. Let's add some test code.
+	sleep(3);
+	cout << "This is a template C++ file.\n";
+	sleep(2);
+	cout << "Use it for basic C++ code!";
+	return 1;
+}
