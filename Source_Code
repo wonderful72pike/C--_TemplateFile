@@ -7,8 +7,8 @@ using namespace std; //So we can put "cout" instead of "std::cout"
 int main() //"main" function, MUST be included!
 {
 	//Code goes here. Let's add some test code.
-	sleep(3);
-	cout << "This is a template C++ file.\n";
+	sleep(3); //makes program wait three seconds
+	cout << "This is a template C++ file.\n"; //cout "Standard Character Output", it prints text. "\n" makes a line break
 	sleep(2);
 	cout << "Use it for basic C++ code!";
 	return 1;
